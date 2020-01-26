@@ -21,10 +21,20 @@ puts "- exit : exits this program"
 end 
 
 def play(array)
-  binding.pry
   puts "Please enter a song name or number:"
-  input = gets.strip
-  array.each { |song, number|}
+  user_response = gets.strip
+  array.each { |song, location|
+    if user_response == song
+      system 'open ' + location
+    end
+      }
+  if user_response == "list"
+    list(my_songs)
+    play(my_songs)
+  else
+    puts "Invalid input, please try again:"
+    play(my_songs)
+  end
   
   
 end 
