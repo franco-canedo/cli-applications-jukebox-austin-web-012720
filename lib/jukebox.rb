@@ -33,7 +33,7 @@ def play(array)
     play(array)
   else
     puts "Invalid input, please try again:"
-    play(array)
+    
   end
   
   
