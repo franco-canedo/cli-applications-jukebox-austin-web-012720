@@ -12,7 +12,7 @@ songs = [
 ]
 
 def help 
-  
+  puts ""
 end 
 
 def play 
