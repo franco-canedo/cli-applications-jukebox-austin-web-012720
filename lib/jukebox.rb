@@ -29,11 +29,11 @@ def play(array)
     end
       }
   if user_response == "list"
-    list(my_songs)
-    play(my_songs)
+    list(array)
+    play(array)
   else
     puts "Invalid input, please try again:"
-    play(my_songs)
+    play(array)
   end
   
   
