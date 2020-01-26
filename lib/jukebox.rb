@@ -27,7 +27,7 @@ def play(array)
   new_array = [1]
   new_array << list(array)
   new_array
-  
+  binding.pry
 end 
 
 
