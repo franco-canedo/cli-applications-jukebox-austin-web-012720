@@ -1,4 +1,5 @@
 # Add your code here
+require "pry"
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -24,6 +25,7 @@ def play(array)
   input = gets.strip
   new_array = []
   new_array << list(array)
+  
 end 
 
 def list(array)
