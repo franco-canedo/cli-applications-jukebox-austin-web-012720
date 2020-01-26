@@ -23,7 +23,7 @@ def play(array)
   puts "Please enter a song name or number:"
   input = gets.strip
   array.each {|song|
-    if input == array[0] || 
+    if input == array[0] 
       puts "Playing #{array[input - 1]}"
     end 
   }
