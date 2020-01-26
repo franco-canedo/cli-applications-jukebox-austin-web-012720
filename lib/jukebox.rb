@@ -19,14 +19,14 @@ def help
 - exit : exits this program"
 end 
 
-def play(array)
-  array.each_with_index { |item, index|
-    puts "#{index + 1}. item"
-  }
+def play
+  
 end 
 
-def list
-  
+def list(array)
+   array.each_with_index { |item, index|
+    puts "#{index + 1}. item"
+  }
 end 
 
 def exit_jukebox
