@@ -30,9 +30,6 @@ def play(array)
   if input.to_f == 1...9
     puts "Playing #{array[input - 1]}"
   end 
-  
- 
-    
 end 
 
 def list(array)
