@@ -29,7 +29,7 @@ def play(array)
   binding.pry
 end 
 
-play
+play(array)
 
 def list(array)
   array.each_with_index { |item, index|
