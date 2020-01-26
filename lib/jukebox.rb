@@ -25,9 +25,9 @@ def play(array)
   input = gets.strip
   new_array = []
   new_array << list(array)
-  binding.pry
+  
 end 
-
+binding.pry
 def list(array)
   array.each_with_index { |item, index|
     puts "#{index + 1}. #{item}"
