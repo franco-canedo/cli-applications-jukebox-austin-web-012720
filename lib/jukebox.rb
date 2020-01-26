@@ -25,7 +25,7 @@ def play(array)
   input = gets.strip
   new_array = []
   new_array << list(array)
-  
+  new_array
 end 
 binding.pry
 def list(array)
