@@ -22,7 +22,8 @@ end
 def play(array)
   puts "Please enter a song name or number:"
   input = gets.strip
-  
+  new_array = []
+  new_array << list(array)
 end 
 
 def list(array)
