@@ -20,7 +20,7 @@ def help
 end 
 
 def play(array)
-  puts ""
+  puts "Please enter a song name or number:"
 end 
 
 def list(array)
