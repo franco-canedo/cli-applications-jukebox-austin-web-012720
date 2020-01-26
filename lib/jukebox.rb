@@ -21,19 +21,14 @@ puts "- exit : exits this program"
 end 
 
 def play(array)
-  puts "Please enter a song name or number:"
-  user_response = gets.strip
-  array.each { |song, location|
-    if user_response == song
-      system 'open ' + location
-    end
-      }
-  if user_response == "list"
-    list(array)
-    play(array)
-  else
-    puts "Invalid input, please try again:"
-    
+ puts "Please enter a song name:"
+  input = gets.chomp
+  my_songs.each_key do |song|
+    if input == song.downcase
+      system "open " + my_songs[song]
+      break
+    end 
+
   end
   
   
