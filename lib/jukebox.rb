@@ -21,13 +21,13 @@ puts "- exit : exits this program"
 end 
 
 def play(array)
-  
+  binding.pry
   puts "Please enter a song name or number:"
   input = gets.strip
   new_array = [1]
   new_array << list(array)
   new_array
-  binding.pry
+  
 end 
 
 
